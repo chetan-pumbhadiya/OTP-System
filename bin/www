@@ -9,7 +9,7 @@ var debug = require('debug')('prcl-technoyoga:server');
 var http = require('http');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://Chetan:Chetan02@cluster0.q8se7xx.mongodb.net/technoyuga')
+mongoose.connect('mongodb link')
   .then(() => console.log('Connected!'))
   .catch((e) => console.log("Soome thing went wrong!", e))
 
